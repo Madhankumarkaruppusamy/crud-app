@@ -1,3 +1,35 @@
 .example-spacer {
-    flex: 1 1 auto;
+  flex: 1 1 auto;
+}
+
+.main-body {
+
+  padding: 20px ;
+  margin: 0 auto;
+  max-width: 1264px;
+
+  mat-form-field {
+    width: 100%;
+
   }
+  
+
+  .table-container {
+    max-width: 1248px;
+
+  }
+  
+
+}
+.actionrow{
+  display: flex;
+
+
+}
+
+.mat-row{
+  color: red; 
+  text-align: right;
+  
+
+}

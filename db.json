@@ -1,16 +1,232 @@
 {
-    "posts": [
-      { "id": "1", "title": "a title", "views": 100 },
-      { "id": "2", "title": "another title", "views": 200 }
-    ],
-    "comments": [
-      { "id": "1", "text": "a comment about post 1", "postId": "1" },
-      { "id": "2", "text": "another comment about post 1", "postId": "1" }
-    ],
-    "profile": {
-      "name": "typicode"
+  "employee": [
+    {
+      "id": "1",
+      "firstName": "Madhan",
+      "lastName": "Kumar",
+      "email": "mad@gmail.com",
+      "dob": "2000-01-12T18:30:00.000Z",
+      "gender": "male",
+      "education": "Graduate",
+      "company": "PMS",
+      "experience": "2",
+      "package": 20
     },
-    "employee":[
-
-    ]
-  }
+    {
+      "id": "2",
+      "firstName": "Max",
+      "lastName": "Well",
+      "email": "max@gmail.com",
+      "dob": "2000-12-11T18:30:00.000Z",
+      "gender": "male",
+      "education": "Post Graduate",
+      "company": "PMS",
+      "experience": 3,
+      "package": 50
+    },
+    {
+      "id": "3",
+      "firstName": "Anjelo",
+      "lastName": "Mathews",
+      "email": "mathews@gmail.com",
+      "dob": "2002-02-01T18:30:00.000Z",
+      "gender": "male",
+      "education": "Graduate",
+      "company": "PMS",
+      "experience": 3,
+      "package": 50
+    },
+    {
+      "id": "4",
+      "firstName": "Jane",
+      "lastName": "Doe",
+      "email": "jane.doe@gmail.com",
+      "dob": "1995-05-12T18:30:00.000Z",
+      "gender": "female",
+      "education": "Diploma",
+      "company": "TechCorp",
+      "experience": 5,
+      "package": 60
+    },
+    {
+      "id": "5",
+      "firstName": "John",
+      "lastName": "Smith",
+      "email": "john.smith@gmail.com",
+      "dob": "1988-03-12T18:30:00.000Z",
+      "gender": "male",
+      "education": "Graduate",
+      "company": "InnovateX",
+      "experience": 8,
+      "package": 80
+    },
+    {
+      "id": "6",
+      "firstName": "Alice",
+      "lastName": "Johnson",
+      "email": "alice.johnson@gmail.com",
+      "dob": "1992-11-15T18:30:00.000Z",
+      "gender": "female",
+      "education": "Post Graduate",
+      "company": "FinTech",
+      "experience": 7,
+      "package": 90
+    },
+    {
+      "id": "7",
+      "firstName": "Robert",
+      "lastName": "Brown",
+      "email": "robert.brown@gmail.com",
+      "dob": "1990-08-22T18:30:00.000Z",
+      "gender": "male",
+      "education": "Intermediate",
+      "company": "HealthCare Inc",
+      "experience": 10,
+      "package": 100
+    },
+    {
+      "id": "8",
+      "firstName": "Emily",
+      "lastName": "Davis",
+      "email": "emily.davis@gmail.com",
+      "dob": "1993-04-09T18:30:00.000Z",
+      "gender": "female",
+      "education": "Graduate",
+      "company": "EduTech",
+      "experience": 6,
+      "package": 70
+    },
+    {
+      "id": "9",
+      "firstName": "Michael",
+      "lastName": "Wilson",
+      "email": "michael.wilson@gmail.com",
+      "dob": "1987-02-25T18:30:00.000Z",
+      "gender": "male",
+      "education": "Graduate",
+      "company": "AutoMotive",
+      "experience": 12,
+      "package": 110
+    },
+    {
+      "id": "10",
+      "firstName": "Sarah",
+      "lastName": "Lee",
+      "email": "sarah.lee@gmail.com",
+      "dob": "1996-07-18T18:30:00.000Z",
+      "gender": "female",
+      "education": "Diploma",
+      "company": "Foodies",
+      "experience": 4,
+      "package": 50
+    },
+    {
+      "id": "11",
+      "firstName": "David",
+      "lastName": "Martinez",
+      "email": "david.martinez@gmail.com",
+      "dob": "1985-10-10T18:30:00.000Z",
+      "gender": "male",
+      "education": "Graduate",
+      "company": "Consulting Pro",
+      "experience": 15,
+      "package": 120
+    },
+    {
+      "id": "12",
+      "firstName": "Emma",
+      "lastName": "Garcia",
+      "email": "emma.garcia@gmail.com",
+      "dob": "1998-06-05T18:30:00.000Z",
+      "gender": "female",
+      "education": "Post Graduate",
+      "company": "BioTech",
+      "experience": 5,
+      "package": 75
+    },
+    {
+      "id": "13",
+      "firstName": "Daniel",
+      "lastName": "Rodriguez",
+      "email": "daniel.rodriguez@gmail.com",
+      "dob": "1983-09-12T18:30:00.000Z",
+      "gender": "male",
+      "education": "Matric",
+      "company": "Retail Hub",
+      "experience": 20,
+      "package": 130
+    },
+    {
+      "id": "14",
+      "firstName": "Sophia",
+      "lastName": "Hernandez",
+      "email": "sophia.hernandez@gmail.com",
+      "dob": "1999-03-22T18:30:00.000Z",
+      "gender": "female",
+      "education": "Graduate",
+      "company": "Media House",
+      "experience": 4,
+      "package": 65
+    },
+    {
+      "id": "15",
+      "firstName": "James",
+      "lastName": "Lopez",
+      "email": "james.lopez@gmail.com",
+      "dob": "1994-01-15T18:30:00.000Z",
+      "gender": "male",
+      "education": "Intermediate",
+      "company": "Construction Co",
+      "experience": 6,
+      "package": 70
+    },
+    {
+      "id": "16",
+      "firstName": "Olivia",
+      "lastName": "Perez",
+      "email": "olivia.perez@gmail.com",
+      "dob": "1997-12-30T18:30:00.000Z",
+      "gender": "female",
+      "education": "Post Graduate",
+      "company": "Eco Solutions",
+      "experience": 5,
+      "package": 80
+    },
+    {
+      "firstName": "Christopher",
+      "lastName": "Nolan",
+      "email": "christopher.white@gmail.com",
+      "dob": "1982-11-20T18:30:00.000Z",
+      "gender": "male",
+      "education": "Diploma",
+      "company": "Travel Experts",
+      "experience": 18,
+      "package": 140,
+      "id": "17"
+    },
+    {
+      "id": "18",
+      "firstName": "Mia",
+      "lastName": "Taylor",
+      "email": "mia.taylor@gmail.com",
+      "dob": "2001-04-05T18:30:00.000Z",
+      "gender": "female",
+      "education": "Graduate",
+      "company": "Fashion Hub",
+      "experience": 2,
+      "package": 40
+    },
+    {
+      "id": "19",
+      "firstName": "Alexander",
+      "lastName": "Anderson",
+      "email": "alexander.anderson@gmail.com",
+      "dob": "1989-07-25T18:30:00.000Z",
+      "gender": "male",
+      "education": "Graduate",
+      "company": "Tech Solutions",
+      "experience": 9,
+      "package": 95
+    }
+  ]
+}
